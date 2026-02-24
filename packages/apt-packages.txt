@@ -1,0 +1,10 @@
+# =============================================================================
+# apt-packages.txt — Packages for Debian/Ubuntu
+# Install with: xargs -a apt-packages.txt sudo apt install -y
+# =============================================================================
+git
+zsh
+neovim
+fzf
+ripgrep
+bat

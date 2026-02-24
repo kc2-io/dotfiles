@@ -1,0 +1,32 @@
+[user]
+	# Set your name and email here, or better yet, in ~/.gitconfig-local
+	# name = Your Name
+	# email = your@email.com
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+
+[core]
+	autocrlf = input
+	editor = vim
+
+[push]
+	autoSetupRemote = true
+
+[diff]
+	colorMoved = default
+
+[merge]
+	conflictstyle = diff3
+
+# Include machine-specific config (identity, signing, etc.)
+# Create ~/.gitconfig-local to override settings per-machine
+[include]
+	path = ~/.gitconfig-local
+
+# Example: Use a different identity for work repos
+# [includeIf "gitdir:~/work/"]
+#     path = ~/.gitconfig-work

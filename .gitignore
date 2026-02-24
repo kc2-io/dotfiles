@@ -1,0 +1,16 @@
+# Backup files created by install.sh
+*.bak
+
+# Local/secret config (never commit)
+.env.local
+
+# OS clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+
+# Editor swap/temp files
+*.swp
+*.swo
+*~

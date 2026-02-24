@@ -1,0 +1,21 @@
+# =============================================================================
+# Brewfile — Homebrew packages (macOS / Linux)
+# Install with: brew bundle --file=~/.dotfiles/packages/Brewfile
+# =============================================================================
+
+# Core tools
+brew "git"
+brew "zsh"
+brew "neovim"
+
+# Prompt
+brew "starship"
+
+# Search and navigation
+brew "fzf"
+brew "ripgrep"
+brew "zoxide"
+
+# Modern replacements
+brew "bat"        # cat replacement
+brew "eza"        # ls replacement

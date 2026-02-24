@@ -1,0 +1,12 @@
+# =============================================================================
+# winget-packages.txt — Packages for Windows (winget)
+# Install with: foreach ($pkg in (Get-Content winget-packages.txt | Where-Object { $_ -notmatch '^\s*#' -and $_ -ne '' })) { winget install $pkg }
+# =============================================================================
+Git.Git
+Neovim.Neovim
+Starship.Starship
+junegunn.fzf
+BurntSushi.ripgrep.MSVC
+sharkdp.bat
+eza-community.eza
+ajeetdsouza.zoxide
