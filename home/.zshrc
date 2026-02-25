@@ -43,7 +43,7 @@ esac
 # -----------------------------------------------------------------------------
 # Tool initializations (uncomment as needed)
 # -----------------------------------------------------------------------------
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 # eval "$(zoxide init zsh)"
 
 # # nvm

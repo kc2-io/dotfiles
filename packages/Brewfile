@@ -19,3 +19,16 @@ brew "zoxide"
 # Modern replacements
 brew "bat"        # cat replacement
 brew "eza"        # ls replacement
+
+# Other
+brew "ffmpeg"
+brew "gh"
+brew "screen"
+brew "tmux"
+cask "claude"
+cask "claude-code"
+tap "steipete/tap"
+tap "yakitrak/yakitrak"
+brew "steipete/tap/gogcli"
+brew "yakitrak/yakitrak/obsidian-cli"
+brew "jsonlint"

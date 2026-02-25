@@ -1,7 +1,6 @@
 [user]
-	# Set your name and email here, or better yet, in ~/.gitconfig-local
-	# name = Your Name
-	# email = your@email.com
+	name = Ken
+	email = ken@ipl31.net
 
 [init]
 	defaultBranch = main
