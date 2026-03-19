@@ -8,3 +8,6 @@ neovim
 fzf
 ripgrep
 bat
+screen
+tmux
+starship
